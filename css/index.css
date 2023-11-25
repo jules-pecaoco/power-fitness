@@ -325,15 +325,15 @@ ul {
 }
 
 .feature-section .col-xs-12:nth-child(1) .skew-tile {
-  background: url("../images/Zones.jpg");
+  background: url("../images/Zones.jpg") !important;
 }
 
 .feature-section .col-xs-12:nth-child(2) .skew-tile {
-  background: url("../images/Military.jpg");
+  background: url("../images/Military.jpg") !important;
 }
 
 .feature-section .col-xs-12:nth-child(3) .skew-tile {
-  background: url("../images/24.jpg");
+  background: url("../images/24.jpg") !important;
 }
 
 .skew-content {
