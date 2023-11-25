@@ -1,15 +1,12 @@
-@import 'css/index.css';
+@import '/css/index.css';
 
 
 /* Landing */
 .landing{
-  height: max-content;
-  width: max-content;
   position: relative;
 }
 
 .landing .img-wrap{
-  width: 100vw;
   height: 60vh;
 }
 
