@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PowerFitness</title>
+
+    <!-- Font Awesome Icons-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Bootstrap 3-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!-- Google Font Roboto Condensed -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/index.css" />
+  </head>
+
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <!-- Navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#my_navbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand logo font-post font-4r" href="#myPage">POWER<span class="font-accent">FITNESS</span></a>
+        </div>
+        <div class="collapse navbar-collapse" id="my_navbar">
+          <ul class="nav navbar-nav navbar-right font-roboto font-400 font-letter-space-0 font-1fr">
+            <li><a href="#hero" class="nav-link text-center">HOME</a></li>
+            <li>
+              <a href="#feature" class="nav-link text-center">FEATURES</a>
+            </li>
+            <li>
+              <a href="#membership" class="nav-link text-center">MEMBERSHIPS</a>
+            </li>
+            <li>
+              <a href="#coaches" class="nav-link text-center">COACHES</a>
+            </li>
+            <li>
+              <a href="/about-us.html" class="nav-link text-center">ABOUT US</a>
+            </li>
+            <li>
+              <a href="" class="profile-icon text-center" data-toggle="modal" data-target="#myModal"> <i class="fa-regular fa-user"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero/Home Section -->
+    <div class="hero-section" id="hero">
+      <img src="/images/Hero.jpg" alt="">
+      <div class="text-center-image text-center">
+        <h1 class="font-post font-body text-center font-4r">
+          ENTER THE ZONE TO BUILD AND
+          <br />
+          <span class="font-accent font-4r">IMPROVE STRENGTH</span>
+        </h1>
+        <p class="font-roboto font-body font-100 font-1fr">
+          Start your fitness journey today. Take the first step towards a healthier you. Remember, every drop of sweat, every healthy meal, and every
+          moment of dedication brings you closer to your fitness goals.
+        </p>
+        <button class="btn btn-lg font-body bg-accent font-700 btn-hover-2 font-roboto">JOIN US</button>
+      </div>
+    </div>
+
+    <!-- Feature Section -->
+    <div class="feature-section" id="feature">
+      <div class="container-fluid">
+        <!-- Cards  -->
+        <div class="cards-part">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <div class="skew-container">
+                  <div class="skew-tile">
+                    <div class="skew-title">
+                      <h1 class="font-post font-6r font-accent text-center">FITNESS ZONES</h1>
+                    </div>
+                    <div class="skew-content">
+                      <h1 class="font-post font-body font-4r">FITNESS ZONES</h1>
+                      <p class="font-roboto font-300 font-body font-1r">
+                        Experience a comprehensive fitness approach with cardio, strength, flexibility, and specialized sports training in our
+                        dedicated zones.
+                      </p>
+                      <a href="" class="btn font-body font-roboto">FIND OUT MORE</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <div class="skew-container">
+                  <div class="skew-tile">
+                    <div class="skew-title">
+                      <h1 class="font-post font-6r font-accent text-center">ROBUST EQUIPMENT</h1>
+                    </div>
+                    <div class="skew-content">
+                      <h1 class="font-post font-body font-4r">ROBUST EQUIPMENT</h1>
+                      <p class="font-roboto font-300 font-body font-1r">
+                        Built with durability to withstand harsh conditions and rigorous use, designed for high performance using cutting-edge
+                        technology, and offers versatility for multi-purpose applications.
+                      </p>
+                      <a href="" class="btn font-body font-roboto">FIND OUT MORE</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <div class="skew-container">
+                  <div class="skew-tile">
+                    <div class="skew-title">
+                      <h1 class="font-post font-6r font-accent text-center">24/7 ACCESS</h1>
+                    </div>
+                    <div class="skew-content">
+                      <h1 class="font-post font-body font-4r">24/7 ACCESS</h1>
+                      <p class="font-roboto font-300 font-body font-1r">
+                        Gain 24/7 access for convenient, flexible workouts, allowing you to choose your schedule and duration while avoiding crowded
+                        peak gym hours.
+                      </p>
+                      <a href="" class="btn font-body font-roboto">FIND OUT MORE</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Join/Statements -->
+        <div class="statements-part">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12 col-lg-12">
+                <div class="st-title">
+                  <h1 class="text-center font-body font-post font-4r">GET INSPIRED TO ACHIEVE MORE IN LIFE</h1>
+                  <p class="text-center font-body font-roboto font-1fr font-200">Here's what to anticipate if you come see us today</p>
+                </div>
+              </div>
+
+              <div class="st-wrap col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <p class="font-body font-400 font-roboto">
+                  <img src="images/icons/team.png" alt="" />
+                  <span> Experience a warm and inclusive atmosphere where everyone feels valued and supported </span>
+                </p>
+              </div>
+              <div class="st-wrap col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <p class="font-body font-400 font-roboto">
+                  <img src="images/icons/dumbbell.png" alt="" />
+                  <span> Enjoy access to top-notch equipment and modern facilities designed to cater to a diverse range of workouts</span>
+                </p>
+              </div>
+              <div class="st-wrap col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <p class="font-body font-400 font-roboto">
+                  <img src="images/icons/trainer.png" alt="" />
+                  <span> Receive personalized training programs crafted by experienced fitness professionals</span>
+                </p>
+              </div>
+
+              <div class="st-wrap col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <p class="font-body font-400 font-roboto">
+                  <img src="images/icons/inclusive.png" alt="" />
+                  <span> Engage in a variety of classes, from high-energy group workouts to specialized sessions </span>
+                </p>
+              </div>
+              <div class="st-wrap col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <p class="font-body font-400 font-roboto">
+                  <img src="images/icons/support.png" alt="" />
+                  <span> Benefit from holistic wellness approaches, including nutritional guidance and recovery techniques </span>
+                </p>
+              </div>
+              <div class="st-wrap col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <p class="font-body font-400 font-roboto">
+                  <img src="images/icons/gift.png" alt="" />
+                  <span>
+                    Access special promotions, member-only events, and ongoing support to keep you motivated and engaged on your fitness
+                    journey.</span
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Membership Section -->
+    <div class="membership-section" id="membership">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <h1 class="text-center font-post font-body font-4r">MEMBERSHIPS</h1>
+            <p class="text-center font-body font-roboto font-1fr font-200">Embrace the fundamentals of fitness with our Essential Membership</p>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="st-card">
+              <div class="card-title">
+                <h1 class="font-roboto font-900 font-4r font-accent">PF BASIC™</h1>
+              </div>
+              <div class="card-price">
+                <p class="font-black font-roboto font-300 margin-0">
+                  <span class="price-hg font-accent font-800 font-roboto font-4r">$5</span>/month
+                </p>
+              </div>
+              <div class="card-description">
+                <p class="font-black font-roboto font-400 margin-0">
+                  Essential access to gym facilities and classes for a straightforward workout routine
+                </p>
+              </div>
+              <hr class="card-line" />
+              <div class="card-buttons">
+                <a href="" class="font-black font-roboto font-400">Learn More</a>
+                <a href="" class="btn font-roboto font-600 font-body font-1r btn-hover-3">JOIN NOW</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="st-card">
+              <div class="card-title">
+                <h1 class="font-roboto font-900 font-4r font-accent">PF PLUS™</h1>
+              </div>
+              <div class="card-price">
+                <p class="font-black font-roboto font-300 margin-0">
+                  <span class="price-hg font-accent font-800 font-roboto font-4r">$10</span>/month
+                </p>
+              </div>
+              <div class="card-description">
+                <p class="font-black font-roboto font-400 margin-0">
+                  Personalized plans, priority bookings, and assessments for a guided fitness journey
+                </p>
+              </div>
+              <hr class="card-line" />
+              <div class="card-buttons">
+                <a href="" class="font-black font-roboto font-400">Learn More</a>
+                <a href="" class="btn font-roboto font-600 font-body font-1r btn-hover-3 bg-white font-black">JOIN NOW</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="st-card">
+              <div class="card-title">
+                <h1 class="font-roboto font-900 font-4r font-accent">PF ELITE™</h1>
+              </div>
+              <div class="card-price">
+                <p class="font-body font-roboto font-300 margin-0">
+                  <span class="price-hg font-accent font-800 font-roboto font-4r">$15</span>/month
+                </p>
+              </div>
+              <div class="card-description">
+                <p class="font-body font-roboto font-400 margin-0">
+                  Premium equipment, private sessions, and nutrition guidance for a complete wellness experience.
+                </p>
+              </div>
+              <hr class="card-line" />
+              <div class="card-buttons">
+                <a href="" class="font-body font-roboto font-400">Learn More</a>
+                <a href="" class="btn font-roboto font-600 font-black font-1r btn-hover-3 bg-white">JOIN NOW</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="st-card">
+              <div class="card-title">
+                <h1 class="font-roboto font-900 font-4r font-accent">PF FLEX™</h1>
+              </div>
+              <div class="card-price">
+                <p class="font-body font-roboto font-300 margin-0">
+                  <span class="price-hg font-accent font-800 font-roboto font-4r">$120</span>/year
+                </p>
+              </div>
+              <div class="card-description">
+                <p class="font-body font-roboto font-400 margin-0">
+                  Flexible visits per month for diverse amenities, catering to varying schedules and workout preference
+                </p>
+              </div>
+              <hr class="card-line" />
+              <div class="card-buttons">
+                <a href="" class="font-body font-roboto font-400">Learn More</a>
+                <a href="" class="btn font-roboto font-600 font-black font-1r btn-hover-3 bg-white">JOIN NOW</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Coach/  Section -->
+    <div class="coach-section" id="coaches">
+      <div class="container">
+        <div>
+          <div>
+            <h1 class="text-center font-post font-body font-4r">COACHES</h1>
+            <p class="text-center font-roboto font-200 font-1fr font-body">Meet Our Expert Trainers</p>
+          </div>
+          <div>
+            <div class="coach-card">
+              <div class="card-img">
+                <img src="/images/coach/lowie.jpg" alt="" />
+              </div>
+              <div class="card-title">
+                <h1 class="font-roboto font-3r font-body text-center font-600 margin-0">Strength and Conditioning Coach</h1>
+                <div class="card-socials">
+                  <div class="socials-wrap"><i class="fa-brands fa-facebook-f"></i></div>
+                  <div class="socials-wrap"><i class="fa-brands fa-instagram"></i></div>
+                  <div class="socials-wrap"><i class="fa-brands fa-twitter"></i></div>
+                </div>
+              </div>
+              <div class="card-caption">
+                <p class="font-roboto font-1fr font-body text-justify font-400">
+                  Meet our Strength and Conditioning Coach, <span class="font-600 font-accent">Lowie John Replan</span> , an expert in maximizing
+                  physical potential, an expert in maximizing physical potential. With tailored workout routines, personalized nutritional guidance,
+                  and a focus on progressive training methods.
+                </p>
+                <a href="" class="font-roboto font-1fr font-accent text-left font-400">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div >
+            <div class="coach-card" >
+              <div class="card-img" id="card-inverse">
+                <img src="/images/coach/rommel.jpg" alt="" />
+              </div>
+              <div class="card-title">
+                <h1 class="font-roboto font-3r font-body text-center font-600 margin-0">Wellness Coach</h1>
+                <div class="card-socials">
+                  <div class="socials-wrap"><i class="fa-brands fa-facebook-f"></i></div>
+                  <div class="socials-wrap"><i class="fa-brands fa-instagram"></i></div>
+                  <div class="socials-wrap"><i class="fa-brands fa-twitter"></i></div>
+                </div>
+              </div>
+              <div class="card-caption">
+                <p class="font-roboto font-1fr font-body text-justify font-400">
+                  Meet our Wellness Coach, <span class="font-600 font-accent">Rommel Bitco</span>, dedicated to fostering holistic well-being by balancing
+                   physical fitness with mental and emotional wellness. Rommel focuses on a comprehensive approach to health, 
+                   offering guidance on nutrition, stress management, mindfulness practices, and personalized workout routines.
+                </p>
+                <a href="" class="font-roboto font-1fr font-accent text-left font-400">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="coach-card">
+              <div class="card-img">
+                <img src="/images/coach/jules.png   " alt="" />
+              </div>
+              <div class="card-title">
+                <h1 class="font-roboto font-3r font-body text-center font-600 margin-0">Functional Fitness Trainer </h1>
+                <div class="card-socials">
+                  <div class="socials-wrap"><i class="fa-brands fa-facebook-f"></i></div>
+                  <div class="socials-wrap"><i class="fa-brands fa-instagram"></i></div>
+                  <div class="socials-wrap"><i class="fa-brands fa-twitter"></i></div>
+                </div>
+              </div>
+              <div class="card-caption">
+                <p class="font-roboto font-1fr font-body text-justify font-400">
+                  Introducing our Functional Fitness Trainer, <span class="font-600 font-accent">Jules Alfonz Pecaoco</span>, specializing in workouts 
+                  that prepare you for everyday movements and challenges. Jules is focus is on 
+                  improving strength, flexibility, and mobility through exercises that mimic real-life activities.
+                </p>
+                <a href="" class="font-roboto font-1fr font-accent text-left font-400">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer-section bg-white-washed">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-lg-3 col-sm-6 col-md-3">
+            <a href="#legal" data-toggle="collapse" class="font-black font-roboto font-2r font-700">
+              <span class="footer-links">LEGAL<i class="glyphicon glyphicon-chevron-down font-black"> </i></span>
+            </a>
+            <div id="legal" class="collapse">
+              <ul class="thy-list">
+                <li class="font-roboto font-black font-300"><a href="" class="footer-link font-black">Privacy Policy</a></li>
+                <li class="font-roboto font-black font-300"><a href="" class="footer-link font-black">Terms and Condition</a></li>
+                <li class="font-roboto font-black font-300"><a href="" class="footer-link font-black">Copyright Information</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xs-12 col-lg-3 col-sm-6 col-md-3">
+            <a href="#contact" data-toggle="collapse" class="font-black font-roboto font-2r font-700">
+              <span class="footer-links">CONTACT US<i class="glyphicon glyphicon-chevron-down font-black"> </i></span>
+            </a>
+            <div id="contact" class="collapse">
+              <ul class="thy-list contact-list">
+                <li class="font-roboto font-black font-300"><i class="fa-solid fa-phone"></i>+639951022578</li>
+                <li class="font-roboto font-black font-300"><i class="fa-solid fa-mail-bulk"></i>powerfitness@gmail.com</li>
+                <li class="font-roboto font-black font-300"><i class="fa-solid fa-map-location-dot"></i> 6100 Bacolod, Negros Occidental</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xs-12 col-lg-3 col-sm-6 col-md-3">
+            <a href="#social" data-toggle="collapse" class="font-black font-roboto font-2r font-700">
+              <span class="footer-links">FIND US ON<i class="glyphicon glyphicon-chevron-down font-black"> </i></span>
+            </a>
+            <div id="social" class="collapse">
+              <ul class="thy-list social-list">
+                <li class="font-roboto font-black font-300">
+                  <a href="" class="footer-link font-black"><i class="fa-brands fa-facebook-f"></i></a>
+                </li>
+                <li class="font-roboto font-black font-300">
+                  <a href="" class="footer-link font-black"><i class="fa-brands fa-tiktok"></i></a>
+                </li>
+                <li class="font-roboto font-black font-300">
+                  <a href="" class="footer-link font-black"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li class="font-roboto font-black font-300">
+                  <a href="" class="footer-link font-black"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xs-12 col-lg-3 col-sm-6 col-md-3">
+            <span class="font-black font-roboto font-2r font-700 footer-links">SUBSCRIBE TO OUR NEWSPAGE</span>
+            <div class="thy-list subscribe-form">
+              <form action="">
+                <div class="input-group">
+                  <a class="input-group-addon bg-white btn"><i class="fa-solid fa-newspaper font-accent"></i></a>
+                  <input id="sub" type="email" class="form-control font-roboto font-1fr" name="email" placeholder="Email" />
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="bg-white-washed">
+      <p class="text-center font-black margin-0 font-roboto font-3 200">© 2023 . All rights reserved, PowerFitness</p>
+    </div>
+  </body>
+</html>

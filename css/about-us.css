@@ -1,0 +1,41 @@
+@import '/css/index.css';
+
+
+/* Landing */
+.landing{
+  height: max-content;
+  width: max-content;
+  position: relative;
+}
+
+.landing .img-wrap{
+  width: 100vw;
+  height: 60vh;
+}
+
+
+.landing img{
+  width: 100%;
+  height: 70vh;
+  object-fit: cover;
+  object-position: center 50px;
+  z-index: -10000;
+
+  position: fixed;
+  filter:brightness(0.5);
+}
+
+@media screen and (min-width: 992px) {
+  .landing .caption h1{
+    font-size: 7rem;
+  }
+}
+
+
+.landing .caption{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+}
