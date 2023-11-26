@@ -73,7 +73,7 @@ ul {
 
 @font-face {
   font-family: "Post No Bills Colombo";
-  src: url("fonts/PostNoBillsColombo-ExtraBold.woff");
+  src: url("../fonts/PostNoBillsColombo-ExtraBold.woff");
 }
 .font-100 {
   font-weight: 100;
