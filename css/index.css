@@ -322,15 +322,16 @@ ul {
   background-color: transparent;
   background-position: center !important;
   background-size: cover !important;
+
+  margin: 5px;
 }
 
 .feature-section .col-xs-12:nth-child(1) .skew-tile {
-  background: url("../images/Zones.jpg") ;
-  
+  background-image: url("../images/Zones.jpg");  
 }
 
 .feature-section .col-xs-12:nth-child(2) .skew-tile {
-  background: url("../images/Military.jpg") ;
+  background: url("../images/Military.jpg");
 }
 
 .feature-section .col-xs-12:nth-child(3) .skew-tile {
@@ -375,7 +376,7 @@ ul {
   }
 
   .skew-tile {
-    height: 75dvh;
+    height: 75dvh !important;
     transform: skew(-3deg) !important;
   }
 
