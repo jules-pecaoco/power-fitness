@@ -1,3 +1,7 @@
+@import url('__base.css');
+@import url('__footer.css');
+@import url('__navbar.css');
+
 /* Landing */
 .landing {
   position: relative;
