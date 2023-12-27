@@ -1,0 +1,134 @@
+@import url('/css/__base.css');
+
+
+
+.logo {
+  font-family: var(--header);
+  color: var(--text-body);
+}
+
+.logo span {
+  color: var(--text-body-accent);
+}
+
+.logo:hover {
+  text-decoration: none;
+  color: white;
+}
+
+/* Nav Bar */
+.navbar {
+  padding-block: 1rem;
+  margin-bottom: 0;
+  background-color: var(--bg-black);
+  z-index: 9999;
+  border: 0;
+  font-size: 12px !important;
+  line-height: 1.42857143 !important;
+  letter-spacing: 4px;
+  border-radius: 0;
+  font-family: Montserrat, sans-serif;
+}
+.navbar li a,
+.navbar .navbar-brand {
+  text-align: center;
+  font-family: var(--body);
+  font-weight: 400;
+  color: var(--text-body) !important;
+}
+
+.navbar-nav li a{
+  border-bottom: 2px transparent solid !important;
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li.active a {
+  color: var(--text-body-accent) !important;
+  background-color: transparent !important;
+  border-bottom: 2px var(--text-body-accent) solid !important;
+}
+
+.profile-icon{
+  height: 51.5px !important;
+}
+
+.active{
+  color: var(--text-body-accent) !important;
+  background-color: transparent !important;
+  }
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  background-color: transparent !important;
+}
+
+.navbar-brand {
+  letter-spacing: 0;
+  font-family: var(--header) !important;
+  font-size: 2.5rem;
+  padding-top: 20px;
+}
+
+.navbar-nav .nav-link {
+  font-weight: 400;
+  letter-spacing: 0;
+  padding-inline: 3rem;
+  font-size: 1.5rem;
+}
+
+.navbar-nav .profile-icon {
+  font-size: 2rem;
+  height: 50px;
+}
+
+@media (max-width: 768px) {
+  .navbar-brand {
+      padding-top: 15px;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-brand {
+      font-size: 4rem;
+  }
+}
+
+/* Collapse the navbar early */
+@media (max-width: 1000px) {
+  .navbar-header {
+      float: none;
+  }
+  .navbar-left,
+  .navbar-right {
+      float: none !important;
+  }
+  .navbar-toggle {
+      display: block;
+  }
+  .navbar-collapse {
+      border-top: 1px solid transparent;
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  }
+  .navbar-fixed-top {
+      top: 0;
+      border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+      display: none !important;
+  }
+  .navbar-nav {
+      float: none !important;
+      margin-top: 7.5px;
+  }
+  .navbar-nav > li {
+      float: none;
+  }
+  .navbar-nav > li > a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  .collapse.in {
+      display: block !important;
+  }
+}
+/* End of Nav Bar */

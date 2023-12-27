@@ -26,35 +26,41 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/about-us.css" />
+
+    <!-- CSS Base -->
+    <link rel="stylesheet" href="css/__base.css" />
+    <link rel="stylesheet" href="css/__footer.css" />
+    <link rel="stylesheet" href="css/__navbar.css" />
   </head>
   <body>
-    <!-- Navbar -->
+    <!-- NAVBAR -->
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#my_navbar">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand logo font-post font-4r" href="#myPage">POWER<span class="font-accent">FITNESS</span></a>
+          <a class="navbar-brand logo" href="#myPage">POWER<span>FITNESS</span></a>
         </div>
-        <div class="collapse navbar-collapse" id="my_navbar">
-          <ul class="nav navbar-nav navbar-right font-roboto font-400 font-letter-space-0 font-1fr">
-            <li><a href="index.html" class="nav-link text-center">HOME</a></li>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li ><a href="index.html" class="nav-link">HOME</a></li>
             <li>
-              <a href="#feature" class="nav-link text-center">FEATURES</a>
+              <a href="features.html" class="nav-link">FEATURES</a>
             </li>
             <li>
-              <a href="#membership" class="nav-link text-center">MEMBERSHIPS</a>
+              <a href="#membership" class="nav-link">MEMBERSHIP</a>
+            </li>
+            <li >
+              <a href="trainers.html" class="nav-link">TRAINERS</a>
+            </li>
+            <li class="active">
+              <a href="about-us.html" class="nav-link">ABOUT US</a>
             </li>
             <li>
-              <a href="#coaches" class="nav-link text-center">COACHES</a>
-            </li>
-            <li>
-              <a href="about-us.html" class="nav-link text-center">ABOUT US</a>
-            </li>
-            <li>
-              <a href="" class="profile-icon text-center" data-toggle="modal" data-target="#myModal"> <i class="fa-regular fa-user"></i></a>
+              <a href="sign-up.html" class="profile-icon"> <i class="fa-regular fa-user"></i></a>
             </li>
           </ul>
         </div>
@@ -65,22 +71,61 @@
       <div>
         <div class="landing">
           <div class="img-wrap">
-            <img src="images/24_Hover.jpg" alt=""> 
+            <img src="images/24_Hover.jpg" alt="" />
           </div>
           <div class="caption">
-            <h1 class="font-post font-body text-center font-4r">Discover Our Story</h1>
-            <p class="font-body font-roboto text-center font-1fr">At <span class="font-post">POWER<span class="font-accent">FITNESS</span></span>, we're more than just a fitness facility—we're a community passionate about helping
-              you unlock your full potential. Founded on the belief that everyone
-              deserves access to top-notch training and support, our journey began with a vision to redefine fitness experiences.</p>
+            <h1 class="ff-header font-body text-center font-4r text-uppercase fw-300">Discover Our Story</h1>
+            <p class="ff-body font-roboto f-clr-white text-center font-1fr">
+              At <span class="font-post">POWER<span class="font-accent">FITNESS</span></span
+              >, we're more than just a fitness facility—we're passionate about helping you unlock your full potential. Founded on the belief that
+              everyone deserves access to top-notch training and support, our journey began with a vision to redefine fitness experiences.
+            </p>
           </div>
         </div>
       </div>
     </main>
 
-
+    <section class="background-black story">
+      <div class="row">
+        <div class="col-md-12">
+          <div>
+            <h1>OUR STORY</h1>
+            <p>
+              In the halls of academia, a collective of second-year students converged with a shared ardor for both fitness and technology. This union
+              birthed a visionary concept: the fusion of these passions to birth something truly extraordinary – a gym website crafted with the
+              sophistication of Bootstrap 3. <br /><br />
+              Driven by youthful enthusiasm and a thirst for innovation, this group set out on a journey fueled by creativity and dedication. They
+              embarked on a mission to blend the realms of fitness and cutting-edge technology, forging a digital sanctuary that mirrored their fervor
+              for healthy living and digital prowess.
+            </p>
+          </div>
+          <div>
+            <img src="images/icons/education.png" alt="" />
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div>
+            <img src="images/icons/target.png" alt="" />
+          </div>
+          <div>
+            <h1 class="text-right">OUR GOAL</h1>
+            <p>
+              In the heart of our venture lies a profound aspiration: to be more than just creators of a gym website. Our aim transcends pixels and
+              coding; it delves into the realm of inspiration. Through our Bootstrap 3 gym website, we seek to ignite a flame of ambition within our
+              college community and beyond.
+              <br /><br />
+              Our mission extends beyond the confines of mere web design. We aspire to serve as beacons, illuminating the pathways for aspiring
+              developers, designers, and dreamers. With our creation, we endeavor to awaken an insatiable curiosity for coding and design, showcasing
+              the limitless possibilities these fields offer. Our ambition is to sow the seeds of exploration, fostering a culture where learning,
+              creativity, and innovation intertwine to sculpt the future.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Footer Section -->
-    <footer class="footer-section bg-white-washed">
+    <footer class="footer-section bg-white-washed margin-0">
       <div class="container">
         <div class="row">
           <div class="col-xs-12 col-lg-3 col-sm-6 col-md-3">

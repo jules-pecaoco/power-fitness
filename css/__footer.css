@@ -1,0 +1,222 @@
+
+/* Colors */
+:root {
+  --accent: rgba(255, 9, 33, 1);
+  --black: rgba(0, 0, 0, 1);
+  --white: rgba(255, 255, 255, 1);
+}
+
+li{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none !important;
+}
+
+/* Background */
+.bg-accent {
+  background-color: var(--accent) !important;
+}
+
+.bg-white {
+  background-color: var(--white) !important;
+}
+
+.bg-white-washed {
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+.bg-black {
+  background-color: var(--black) !important;
+}
+
+/* Margin & Padding */
+.padding-0 {
+  padding: 0 !important ;
+}
+
+.margin-0 {
+  margin: 0 !important;
+}
+
+/* Fonts */
+.font-accent {
+  color: var(--accent) !important;
+}
+
+.font-body {
+  color: var(--white) !important;
+}
+
+.font-black {
+  color: var(--black) !important;
+}
+
+.font-roboto {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.font-post {
+  font-family: "Post No Bills Colombo";
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Post No Bills Colombo";
+  src: url("../fonts/PostNoBillsColombo-ExtraBold.woff");
+}
+.font-100 {
+  font-weight: 100;
+}
+.font-200 {
+  font-weight: 200;
+}
+.font-300 {
+  font-weight: 300;
+}
+.font-400 {
+  font-weight: 400;
+}
+.font-500 {
+  font-weight: 500;
+}
+.font-600 {
+  font-weight: 600;
+}
+.font-700 {
+  font-weight: 700;
+}
+.font-800 {
+  font-weight: 800;
+}
+.font-900 {
+  font-weight: 900;
+}
+
+.font-1r {
+  font-size: calc(1rem + 0.3vw);
+}
+.font-1fr {
+  font-size: 1.5rem;
+}
+.font-2r {
+  font-size: 2rem;
+}
+.font-3r {
+  font-size: 3rem;
+}
+.font-4r {
+  font-size: 4rem;
+}
+.font-5r {
+  font-size: 5rem;
+}
+.font-6r {
+  font-size: 6rem;
+}
+.font-7r {
+  font-size: 7rem;
+}
+
+.font-letter-space-0 {
+  letter-spacing: 0;
+}
+
+
+/* Footer */
+.footer-section {
+  margin-top: 50px;
+  border-top: 1px solid var(--accent);
+  padding-block: 3rem;
+}
+
+.footer-links {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+
+  font-family: var(--header);
+  font-size: 3rem !important;
+}
+
+.footer-links .glyphicon:active {
+  transform: rotate(180deg);
+}
+
+.footer-link:hover {
+  color: var(--accent) !important;
+}
+
+.social-list {
+  display: flex;
+  flex-direction: row !important;
+}
+
+.social-list .fa-brands {
+  font-size: 4rem;
+  padding-right: 2rem;
+}
+
+.thy-list {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 0;
+  padding-left: 2rem;
+}
+
+.thy-list li {
+  padding-block: 1rem;
+}
+
+.contact-list i {
+  font-size: 3rem;
+  padding-right: 10px;
+  vertical-align: middle;
+}
+
+.copyright {
+  width: 100%;
+  padding: 0;
+}
+
+.subscribe-form {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: start;
+}
+
+.subscribe-form .fa-solid {
+  font-size: 3rem;
+  color: var(--white);
+}
+
+.subscribe-form a {
+  border-radius: 5px 0px 0px 5px;
+}
+
+.subscribe-form #sub {
+  height: 55.33px;
+  border: 1px var(--black) solid;
+  border-radius: 0px 5px 5px 0;
+}
+
+
+
+@media screen and (min-width: 992px) {
+  .footer-section .glyphicon {
+    display: none;
+  }
+
+  .footer-section .collapse {
+    display: block;
+  }
+
+  .footer-links {
+    font-size: 3rem;
+  }
+}

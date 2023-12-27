@@ -1,0 +1,170 @@
+/* Imports Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Reset All*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/* Use locally stored font */
+@font-face {
+  font-family: "Post No Bills Colombo ExtraBold Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/PostNoBillsColombo-ExtraBold.woff");
+}
+
+/* Custom Properties */
+:root {
+    --text-body-accent: #ff0921;
+    --text-body: #ffffff;
+    --text-black:#000;
+    --bg-black: #000000;
+    --bg-white:#ffff;
+    --header: "Post No Bills Colombo ExtraBold Regular";
+    --body: 'Roboto Condensed', sans-serif;
+}
+
+
+/* Default Style Tags*/
+body {
+  background-color: var(--bg-black);
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-body);
+}
+
+
+/* Custom Classes */
+.background-black{
+    background-color: var(--bg-black);
+}
+
+.background-white{
+    background-color: white;
+}
+
+
+/* Old Font Color and Family Classess*/
+.body-font {
+  font-family: var(--body);
+}
+
+.header-font {
+  font-family: var(--header);
+}
+
+.accent-font {
+  color: var(--text-body-accent);
+}
+
+.body-font {
+  color: var(--text-body);
+}
+
+.font-body{
+  font-family: var(--body);
+}
+
+.font-header{
+  font-family: var(--header);
+}
+
+.font-white{
+  color: var(--text-body);
+}
+
+.font-accent{
+  color: var(--text-body-accent);
+}
+
+.font-black{
+  color: var(--bg-black);
+}
+
+/* New */
+.ff-body{
+  font-family: var(--body) !important;
+}
+
+.ff-header{
+  font-family: var(--header) !important;
+}
+
+.f-clr-accent{
+  color: var(--text-body-accent) !important;
+}
+
+.f-clr-white{
+  color: white;
+}
+
+.f-clr-black{
+  color: black;
+}
+
+.fw-100 {
+  font-weight: 100;
+}
+
+.fw-300 {
+  font-weight: 300;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.fw-900 {
+  font-weight: 900;
+}
+
+.fr-05{
+  font-size: 0.5rem;
+}
+
+.fr-1 {
+  font-size: 1rem;
+}
+
+.fr-2 {
+  font-size: 2rem !important;
+}
+
+.fr-3 {
+  font-size: 3rem !important;
+}
+
+.fr-4 {
+  font-size: 4rem !important;
+}
+
+.fr-5 {
+  font-size: 5rem !important;
+}
+
+.fr-6 {
+  font-size: 6rem;
+}
+
+.fr-7{
+  font-size: 7rem;
+}
+
+.fr-8{
+  font-size: 8rem;
+}
+
+.margin-0{
+    margin: 0;
+}
+
+.padding{
+    padding: 0;
+}
